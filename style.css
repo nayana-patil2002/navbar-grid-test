@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ 
+
+ .mainNavBar .navbar-brand{
+    
+    padding: 5px 15px;
+}
+
+
+
+.mainNavBar.navbar-default {
+    background-color: black;
+    border-color: black;
+}  
+
+
+
+.mainNavBar.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+
+.mainNavBar.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+}
+
+
+
+.mainNavBar.navbar-default .dropdown-menu{
+    background-color: black;
+}
+
+
+.mainNavBar.navbar-default .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+   
+    background-color: orange;
+}
+
+
+
+.mainNavBar.navbar-default .navbar-nav>.open>a, 
+.mainNavBar.navbar-default .navbar-nav>.open>a:focus, 
+.mainNavBar.navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: orange;
+}
+
+
+
+.mainNavBar.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: orange;
+}
+
+
+.mainNavBar.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: orange;
+}
+
+
+
+
+
+
+.mainNavBar.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, 
+.mainNavBar.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: orange;
+}
+
+
+
+.mainNavBar.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+ .mainNavBar.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: orange;
+}
+
+
+.mainNavBar.navbar-default .navbar-toggle {
+    border-color: orange;
+}
+
+
+
+.box{
+    background-color: red;
+    height: 250px;
+    margin-bottom: 15px;
+}
